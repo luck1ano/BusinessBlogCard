@@ -8,11 +8,11 @@ body {
   font-size: 1rem;
   color: #677489;
   background-color: #F2F5F9;
+  padding-bottom: 7.5em;
 }
 
 img {
   width: 100%;
-  height: 17.5em; 
   display: block;
 }
 
@@ -42,7 +42,7 @@ img {
 
 .main-container {
   width: 35%;
-  margin: 7.5em auto 7.5em;
+  margin: 7.5em auto 0;
   overflow: hidden;
   background-color: #fff;
   box-shadow: 1px 1px 100px #F2F5F9;
@@ -72,7 +72,7 @@ img {
 
 .overlay {
   position: absolute;
-  top: 39%;
+  top: 76%;
   left: 0;
 }
 
