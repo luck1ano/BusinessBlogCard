@@ -1,0 +1,87 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
+  font-size: 1rem;
+  color: #677489;
+  background-color: #F2F5F9;
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+.image,
+.main-img {
+  border-radius: 25px;
+}
+
+/* TYPOGRAPHY */
+
+.title,
+.name {
+  font-family: 'Poppins', sans-serif;
+  color: #111729;
+}
+
+.title {
+  font-size: 1.5rem;
+}
+
+.name,
+.jobtitle {
+  font-size: .75em;
+}
+
+/* LAYOUT */
+
+.main-container {
+  width: 45%;
+  margin: 7.5em auto 7.5em;
+  background-color: #fff;
+  box-shadow: 1px 1px 100px #F2F5F9;
+  border-radius: 25px
+}
+
+.text-container {
+  padding: 0 2em 1.5em;
+}
+
+.username {
+  padding: 0 1.5em 2em .75em;
+}
+
+.text-container {
+  border-bottom: 2px solid #F2F5F9;
+}
+
+.image {
+  position: relative;
+}
+
+.overlay {
+  position: absolute;
+  top: 76%;
+  left: 0;
+}
+
+.author {
+  padding: 1.5em 2em;
+  display: flex;
+  margin: 0;
+}
+
+.avatar-img {
+  width: 2em;
+  height: 2em;
+  border-radius: 50%;
+}
+
+.name,
+.jobtitle {
+  margin: 0;
+}
